@@ -1,0 +1,10 @@
+<label [for]="name">{{name}}</label>
+  <input
+    [id]="name"
+    type="range"
+    min="0"
+    max="3"
+    step=".1"
+    (change)="setSpeedValue($event)"
+    />
+    <br/>
